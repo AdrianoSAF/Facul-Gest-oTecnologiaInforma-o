@@ -20,8 +20,8 @@ int main(){
 
     //Sem conversão explicita
     int x = 5;
-    float y = 5.0;
-
+    float y = 10;
+    
     printf("x == y: %d\n", x == y);
     printf("x != y: %d\n", x != y);
 
