@@ -8,7 +8,7 @@ void main(){
         printf("\nDigite um número:\n");
         scanf("%d", &num);
 
-        if(num != 0){
+        if((num != 0) && (num != 9)){
             if(num % 2 == 0){
                 sucessor = num + 1; 
                 printf("o sucessor do número %d é: %d\n", num, sucessor);
@@ -18,5 +18,5 @@ void main(){
             }
         }
 
-    }while(num != 0 || num != 9);
+    }while((num != 0) && (num != 9));
 }
